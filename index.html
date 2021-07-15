@@ -15,7 +15,7 @@
   <div class="container">
 
     <header>
-      <span class="logo"><img src="./images/logo.svg" alt="logo"></span>
+      <span class="logo__image"><img src="./images/logo.svg" alt="logo"></span>
 
       <nav class="navigation">
         <ul class="nav__list">
@@ -33,7 +33,7 @@
         <h2 class="landing__message">All your files in one secure location, accessible anywhere.</h2>
         <p class="landing__desc">Fylo stores all your most important files in one secure location. Access them wherever 
           you need, share and collaborate with friends family, and co-workers.</p>
-          <button class="btn">Get Started</button>
+          <button class="btn get-started">Get Started</button>
       </section>
 
       <!-- Features -->
@@ -84,24 +84,25 @@
       <span class="procedure__image"><img src="./images/illustration-stay-productive.png" alt=""></span>
 
       <div class="procedure__desc">
-        <p class="procedure__title bold">Stay productive, wherever you are</p>
-        <p class="procedure__explained normal">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
-        <p class="procedure__explained normal">Securely share files and folders with friends, family and colleagues for live collaboration. No email 
+        <p class="procedure__title">Stay productive, wherever you are</p>
+        <p class="procedure__explained">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+        <p class="procedure__explained">Securely share files and folders with friends, family and colleagues for live collaboration. No email 
           attachments required.</p>
-        <a href="">See how Fylo works</a>
+        <a class="procedure__link" href="">See how Fylo works<span><img class="go-arrow" src="./images/icon-arrow.svg" alt=""></span></a>
       </div>
     </section>
 
     <!-- Testimonials -->
     <section class="testimonials">
+      <span><img class="quote-mark" src="./images/bg-quotes.png" alt=""></span>
       <div class="testimonial">
         <p class="testimonial__client">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
           become a well-oiled collaboration machine.</p>
         <div class="client__profile">
           <span class="client__image"><img src="./images/profile-1.jpg" alt=""></span>
           <div class="client__details">
-            <p class="client__name bold">Satish Patel</p>
-            <p class="client__occupation normal">Founder & CEO, Huddle</p>
+            <p class="client__name">Satish Patel</p>
+            <p class="client__occupation">Founder & CEO, Huddle</p>
           </div>
         </div>
       </div>
@@ -134,35 +135,38 @@
 
     <!-- Sign up -->
     <section class="sign-up">
-      <p class="sign-up__title bold">Get early access today</p>
-      <p class="sign-up__desc normal">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+      <p class="sign-up__title">Get early access today</p>
+      <p class="sign-up__desc">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
         questions, our support team would be happy to help you.</p>
 
         <div class="message-container">
-          <input type="text" class="message" placeholder="email address">
-          <button class="btn">Get Started For Free</button>
+          <input type="email" class="email-message" placeholder="email@example.com">
+          <button class="btn email">Get Started For Free</button>
         </div>
     </section>
 
     </main>
 
-    <footer>
+    <footer class="footer">
       <span class="footer__logo"><img src="./images/logo.svg" alt="footer__logo"></span>
       <div class="footer__information">
         <div class="info-1">
           <span class="location__icon"><img src="./images/icon-location.svg" alt=""></span>
-          <p class="location__desc bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+          <p class="location__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
             dolore magna aliqua</p>
         </div>
 
         <div class="info-2">
           <span class="telephone__icon"><img src="./images/icon-phone.svg" alt=""></span>
           <p class="phone-number">+1-543-123-4567</p>
-          <span class="email__icon"><img src="./images/icon-email.svg" alt=""></span>
-          <p class="phone-number">example@fylo.com</p>
         </div>
 
         <div class="info-3">
+          <span class="email__icon"><img src="./images/icon-email.svg" alt=""></span>
+          <p class="work-email">example@fylo.com</p>
+        </div>
+
+        <div class="info-4">
           <ul class="about-us">
             <li class="about-us__item">About Us</li>
             <li class="about-us__item">Jobs</li>
@@ -171,7 +175,7 @@
           </ul>
         </div>
 
-        <div class="info-4">
+        <div class="info-5">
           <ul class="contact">
             <li class="contact__item">Contact Us</li>
             <li class="contact__item">Terms</li>
@@ -180,10 +184,10 @@
 
         </div>
 
-        <div class="info-5">
-          <span><img src="" alt=""></span>
-          <span><img src="" alt=""></span>
-          <span><img src="" alt=""></span>
+        <div class="info-6">
+          <span><img class="icon" src="./images/facebook-icon.svg" alt=""></span>
+          <span><img class="icon" src="./images/twitter-icon.svg" alt=""></span>
+          <span><img class="icon" src="./images/instagram-icon.svg" alt=""></span>
         </div>
       </div>
 
