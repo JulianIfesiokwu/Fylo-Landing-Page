@@ -57,6 +57,11 @@ header {
     margin-left: 1rem;
 }
 
+.nav__item:hover, .nav__item:focus {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 main {
     background-color: var(--Dark-Blue-main);
 }
@@ -108,9 +113,10 @@ main {
     margin: 0 auto;
 }
 
-/* .get-started {
-    
-} */
+.btn:hover, .btn:focus {
+    cursor: pointer;
+    background-image: linear-gradient(to left, var(--Cyan), var(--Cyan));
+}
 
 .features {
     padding: 2rem;
@@ -121,6 +127,10 @@ main {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 4rem;
+}
+
+.feature__image img {
+    max-width: 20%;
 }
 
 .feature__desc {
@@ -171,9 +181,18 @@ main {
     border-bottom: 1px solid var(--Cyan);
 }
 
+.procedure__link:hover, .procedure__link:focus {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
 .go-arrow {
     margin-left: 0.5rem;
     vertical-align: text-bottom;
+}
+
+.go-arrow:hover, .go-arrow:focus {
+    color: white;
 }
 
 .testimonials {
@@ -277,10 +296,23 @@ main {
     flex-direction: column;
 }
 
-.info-1, .info-2, .info-3 {
+.info-1 {
     display: flex;
     flex-direction: row;
     margin-bottom: 1rem;
+    gap: 5%;
+    font-family: var(--ff-open-sans);
+}
+
+.info-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
     gap: 5%;
     font-family: var(--ff-open-sans);
 }
@@ -293,10 +325,6 @@ main {
     margin-left: 0.5rem;
 }
 
-.about-us {
-    margin-top: 2rem;
-}
-
 .about-us, .contact {
     list-style-type: none;
     font-family: var(--ff-open-sans);
@@ -305,6 +333,11 @@ main {
 
 .about-us__item, .contact__item {
     margin-bottom: 1rem;
+}
+
+.contact__item:hover, .contact__item:focus {
+    cursor: pointer;
+    font-weight: 700;
 }
 
 .info-6 {

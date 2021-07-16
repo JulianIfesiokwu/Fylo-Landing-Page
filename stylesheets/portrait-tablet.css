@@ -1,0 +1,100 @@
+.container header {
+    padding: 2rem;
+}
+
+header .logo__image {
+    width: 10%;
+}
+
+header .logo__image img {
+    vertical-align: text-bottom;
+}
+
+.nav__list .nav__item {
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+
+.curved-background .landing__image img {
+    width: 50%;
+    height: auto;
+}
+
+.curved-background .landing__message {
+    width: 50%;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+}
+
+.curved-background .landing__desc {
+    width: 50%;
+    margin: 2rem auto;
+    font-size: 1.2rem;
+}
+
+.features {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 5%;
+}
+
+.procedure {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 5%;
+}
+
+.procedure .procedure__image {
+    flex: 60%;
+}
+
+.procedure .procedure__desc {
+    flex: 40%;
+}
+
+main .testimonials {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+main .sign-up {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding: 2rem 6rem;
+}
+.footer .footer__logo {
+    padding-left: 4rem;
+}
+
+.footer .footer__information {
+    display: flex;
+    flex-direction: row;
+    padding: 0 4rem;
+}
+
+.info-1 {
+    flex: 20%;
+    margin-right: 2rem;
+}
+
+.footer__information .info-2 {
+    gap: 0;
+}
+
+.info-2, .info-3, .info-4, .info-5, .info-6 {
+    flex: 1;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
