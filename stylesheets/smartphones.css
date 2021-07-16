@@ -113,7 +113,8 @@ main {
     margin: 0 auto;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover, .btn:focus,
+.email:hover, .email:focus {
     cursor: pointer;
     background-image: linear-gradient(to left, var(--Cyan), var(--Cyan));
 }
@@ -273,12 +274,23 @@ main {
     padding: 1rem;
     border-radius: 30px;
     border: none;
-    margin: 1rem auto;
+    margin: 0 auto;
+    margin-top: 1rem;
 }
 
 .email {
     width: 100%;
     margin: 0 auto;
+    padding: 1rem;
+}
+
+.error-message {
+    visibility: hidden;
+    color: var(--Light-Red);
+    font-size: 0.6rem;
+    font-weight: 700;
+    font-family: var(--ff-open-sans);
+    margin: 0.5rem 0 0 1rem;
 }
 
 .footer {

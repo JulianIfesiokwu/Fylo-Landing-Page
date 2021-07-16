@@ -67,11 +67,28 @@ main .testimonials {
 }
 
 main .sign-up {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 4rem;
-    padding: 2rem 6rem;
 }
+
+.sign-up .message-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+
+.message-div {
+    flex: 50%;
+}
+
+.message-container .email {
+    flex: 30%;
+    padding: 1rem 2rem;
+}
+
 .footer .footer__logo {
     padding-left: 4rem;
 }
